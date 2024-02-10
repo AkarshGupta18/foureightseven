@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body >
+    <div class="left-side">
+        <div class="flex flex-wrap">
+            
+            <div class="image-container">
+                <p class="website-name">GRAZA</p>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center items-center relative">
+                <img src="https://via.placeholder.com/500x300" alt="Product Image" class="main-image">
+                <div class="circular-buttons">
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/files/graza-pdp-duo-header-3_2x_caa7f912-38b3-4e36-b928-ed6c036abfc7_720x.jpg?v=1698551972" style="top: 10%;">1</button>
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/products/graza-pdp-sizzle-header-3_2x_98f6ef49-281f-4095-b8bb-3045391401fe_720x.jpg?v=1698551972" style="top: 25%;">2</button>
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/products/graza-pdp-drizzle-header-3_2x_569477b7-acf0-4950-93a4-c263d6893aa4_720x.jpg?v=1698551972" style="top: 40%;">3</button>
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/products/graza-home-drizzle-in-use_2x_91b89a03-a404-434d-ae48-fb97e37406ab_720x.jpg?v=1698551972" style="top: 55%;">4</button>
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/products/graza-pdp-duo-header-2_2x_7673c33b-ecf4-43d9-b053-4261454c4f3c_720x.jpg?v=1698551972" style="top: 70%;">5</button>
+                    <button class="image-btn" data-src="//www.graza.co/cdn/shop/products/graza-home-sizzle-in-usecopy_2x_47ab5af6-0732-4835-96ba-9853798e5b9d_720x.jpg?v=1698551972" style="top: 85%;">6</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="product-info">
+            <div class="header">
+                <h2 class="product-title">“Drizzle” & “Sizzle”</h2>
+                <h2 class="product-subtitle">Extra Virgin Olive Oil</h2>
+            </div>
+            <a href="#product-reviews" class="reviews-link">
+                <div class="review-stars"></div>
+                <div class="review-count">1573 Reviews</div>
+            </a>
+        </div>
+        <div class="options-box">
+            <div class="options-container">
+                <form id="add-to-cart" class="product-options">
+                    
+                    <fieldset>
+                        <h4>Quantity</h4>
+                        <div class="quantity-options">
+                            <div class="quantity-option-box">
+                                <div class="quantity-option">1 <br> Set</div>
+                                <div class="discount">+5% Off</div>
+                            </div>
+                            <div class="quantity-option-box">
+                                <div class="quantity-option">2 <br> Sets</div>
+                                <div class="discount">+10% Off</div>
+                            </div>
+                            <div class="quantity-option-box">
+                                <div class="quantity-option">6 <br> Sets</div>
+                                <div class="discount">Free Shipping +15% Off</div>
+                            </div>
+                            <div class="quantity-option-box">
+                                <div class="quantity-option">12 <br> Sets</div>
+                                <div class="discount">Free Shipping +19% Off</div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="subscription-fieldset">
+                        <div class="subscription-options">
+                            <div class="one-time-purchase">One Time Purchase</div>
+                            <div class="subscribe-save">Subscribe & Save</div>
+                            <div class="frequency-select">
+                                Frequency
+                                <select id="frequency-select">
+                                    <option value="1 Month">Every 1 Month</option>
+                                    <option value="2 Months">Every 2 Months</option>
+                                    <option value="3 Months">Every 3 Months</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="purchase-fieldset">
+                        <input type="hidden" name="id" value="42067300974806">
+                        <input type="hidden" name="quantity" value="1">
+                        <button type="submit" class="add-to-cart-btn">Subscribe – $19.95</button>
+                        <div class="cancel-anytime">Skip or Cancel Anytime</div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        <div class="product-details">
+            <ul class="tab-menu">
+                <li class="tab-item active">Description</li>
+                <li class="tab-item">Harvest</li>
+                <li class="tab-item">Use Cases</li>
+            </ul>
+            <div class="tab-content">
+                <div class="description-content">
+                    <!-- Description content here -->
+                </div>
+                <div class="harvest-content">
+                    <!-- Harvest content here -->
+                </div>
+                <div class="use-cases-content">
+                    <!-- Use cases content here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+
+</html>
